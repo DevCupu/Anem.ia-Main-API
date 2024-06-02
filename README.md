@@ -2,12 +2,12 @@
 
 ## 1. Mendapatkan semua artikel
 
-- *URL:* /articles
-- *Method:* GET
-- *Response:*
-  - *Success:* 200 OK
+- **URL:** /articles
+- **Method:** GET
+- **Response:**
+  - **Success:** 200 OK
     - Body:
-      json
+      ```json
       [
         {
           "id": "article_id",
@@ -20,23 +20,30 @@
         },
         ...
       ]
-      
-  - *Error:* 500 Internal Server Error
+      ```
+  - **Error:** 404 Not Found
     - Body:
-      json
+      ```json
+      {
+        "message": "Data tidak ditemukan or kosong!"
+      }
+      ```
+  - **Error:** 500 Internal Server Error
+    - Body:
+      ```json
       {
         "message": "Internal server error"
       }
-      
+      ```
 
 ## 2. Mendapatkan artikel berdasarkan ID
 
-- *URL:* /articles/:id
-- *Method:* GET
-- *Response:*
-  - *Success:* 200 OK
+- **URL:** /articles/:id
+- **Method:** GET
+- **Response:**
+  - **Success:** 200 OK
     - Body:
-      json
+      ```json
       {
         "id": "article_id",
         "title": "Judul Artikel",
@@ -46,27 +53,27 @@
         "sourceUrl": "URL_Sumber_Jika_Ada",
         "createdAt": "Tanggal_Pembuatan"
       }
-      
-  - *Error:* 404 Not Found
+      ```
+  - **Error:** 404 Not Found
     - Body:
-      json
+      ```json
       {
         "message": "Data dengan ID ini tidak ditemukan!"
       }
-      
-    - *OR* 500 Internal Server Error
-      - Body:
-        json
-        {
-          "message": "Internal server error"
-        }
-        
+      ```
+  - **Error:** 500 Internal Server Error
+    - Body:
+      ```json
+      {
+        "message": "Internal server error"
+      }
+      ```
 
 ## 3. Menambahkan artikel baru
 
-- *URL:* /articles
-- *Method:* POST
-- *Request Body:*
+- **URL:** /articles
+- **Method:** POST
+- **Request Body:**
   ```json
   {
     "title": "Judul Artikel",
