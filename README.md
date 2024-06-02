@@ -18,7 +18,6 @@
           "sourceUrl": "URL_Sumber_Jika_Ada",
           "createdAt": "Tanggal_Pembuatan"
         },
-        ...
       ]
       ```
   - **Error:** 404 Not Found
