@@ -4,7 +4,7 @@
 | /articles/:id    | GET    | Mendapatkan artikel berdasarkan ID                |
 | /articles        | POST   | Menambahkan artikel baru                          |
 
-# Spesifikasi API Untuk Fitur Artikel
+# Spesifikasi API
 
 ## 1. Mendapatkan semua artikel
 
