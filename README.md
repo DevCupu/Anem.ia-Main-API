@@ -86,17 +86,17 @@
   }
   ```
 
-   - **Error:** 400 Bad request
-    - Body:
-      ```json
-      {
-        "status" : "success"
-        "message": "Mohon isi semua field. Title, description, dan content tidak boleh kosong!"
-      }
-      ```
-  - **Error:** 500 Internal Server Error
-    - Body:
-      ```json
+- **Error:** 400 Bad request
+  - Body:
+    ```json
+    {
+      "status" : "success"
+      "message": "Mohon isi semua field. Title, description, dan content tidak boleh kosong!"
+    }
+    ```
+- **Error:** 500 Internal Server Error
+  - Body:
+    ```json
       {
         "message": "Internal server error"
       }
