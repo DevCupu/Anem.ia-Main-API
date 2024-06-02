@@ -100,4 +100,3 @@
       {
         "message": "Internal server error"
       }
-  ```
