@@ -1,3 +1,8 @@
+| Endpoint         | Method | Description                                       |
+|------------------|--------|---------------------------------------------------|
+| /articles        | GET    | Mendapatkan semua artikel                         |
+| /articles/:id    | GET    | Mendapatkan artikel berdasarkan ID                |
+| /articles        | POST   | Menambahkan artikel baru                          |
 
 # Spesifikasi API Untuk Fitur Artikel
 
