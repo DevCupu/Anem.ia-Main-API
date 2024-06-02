@@ -1,6 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const articlesRoute = require("./routes/articles");
+const anemiaRoute = require("./routes/routesAnemia");
 const { configureMulter, configureFirestore } = require("./config");
 const {
     errorHandler,
@@ -22,7 +22,7 @@ configureFirestore();
 app.use("/images", express.static(path.join(__dirname, "public/images")));
 
 // Rute untuk artikel
-app.use("/articles", articlesRoute);
+app.use("/articles", anemiaRoute);
 
 // Middleware untuk menangani kesalahan
 app.use(errorHandler);

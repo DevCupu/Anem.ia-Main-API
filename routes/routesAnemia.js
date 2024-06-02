@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const { getAllArticles, getArticleById, addArticle, updateArticle, deleteArticle } = require("../controllers/articlesController");
+const { getAllArticles, getArticleById, addArticle, updateArticle, deleteArticle } = require("../controllers/anemiaHandler");
 const { configureMulter } = require("../config");
 
 const upload = configureMulter();
