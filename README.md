@@ -130,9 +130,6 @@ console.log('Hello, World!');
       {
         "message": "Internal server error"
       }
-<<<<<<< HEAD
->>>>>>> c4fd5e6 (Updated)
-=======
 
 ## 4. Mengambil semua  Users
 ### Get All Users
@@ -300,9 +297,3 @@ console.log('Hello, World!');
       "message": "Kesalahan server internal"
     }
     ```
-
-
-
-
-
->>>>>>> 050dc7b (Updated API)
