@@ -36,8 +36,8 @@ This document provides information on how to use the API endpoints and their fun
 
 ## 1. Mendapatkan semua artikel
 
-- **URL:** /articles
-- **Method:** GET
+- **URL:** `/articles`
+- **Method:** `GET`
 - **Response:**
   - **Success:** 200 OK
     - Body:
@@ -71,8 +71,8 @@ This document provides information on how to use the API endpoints and their fun
 
 ## 2. Mendapatkan artikel berdasarkan ID
 
-- **URL:** /articles/:id
-- **Method:** GET
+- **URL:** `/articles/:id`
+- **Method:** `GET`
 - **Request Parameter:**
 - **Deskripsi:** Mendapatkan articles berdasarkan ID.
   - `id`: ID unik articles.
@@ -107,8 +107,8 @@ This document provides information on how to use the API endpoints and their fun
 
 ## 3. Menambahkan artikel baru
 
-- **URL:** /articles
-- **Method:** POST
+- **URL:** `/articles`
+- **Method:** `POST`
 - **Request Body:**
   ```json
   {
