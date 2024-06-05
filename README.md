@@ -23,7 +23,7 @@ npm run start
 | Endpoint       | Method | Description            |
 | -------------- | ------ | ---------------------- |
 | /articles      | GET    | Get all articles       |
-| /articles/:id  | GET    | Get articles by ID     |
+| /articles/{id} | GET    | Get articles by ID     |
 | /articles      | POST   | Added new article      |
 | /users         | GET    | Get All users          |
 | /user/{id}     | GET    | Get users based on ID  |
