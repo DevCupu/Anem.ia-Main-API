@@ -1,4 +1,4 @@
-
+# API Documentation
 | Endpoint         | Method | Description                                       |
 |------------------|--------|---------------------------------------------------|
 | /articles        | GET    | Get all articles                                  |
@@ -8,8 +8,6 @@
 | /user/{id}       | GET    | Get users based on ID                             |
 | /auth/register   | POST   | Register a New User                               |
 | /auth/login      | POST   | Login an Existing User                            |
-
-# Spesifikasi API
 
 ## 1. Mendapatkan semua artikel
 
