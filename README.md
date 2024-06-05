@@ -155,7 +155,7 @@ This document provides information on how to use the API endpoints and their fun
           "email": "Email Pengguna",
           "createdAt": "Tanggal Pembuatan"
         },
-        // ...dan seterusnya
+        ` ...dan seterusnya `
       }
       ]
       ```
