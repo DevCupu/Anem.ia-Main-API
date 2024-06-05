@@ -31,7 +31,8 @@ npm run start
 | /auth/register | POST   | Register a New User    |
 | /auth/login    | POST   | Login an Existing User |
 
-# Spesifikasi API
+# API Documentation
+This document provides information on how to use the API endpoints and their functionalities.
 
 ## 1. Mendapatkan semua artikel
 
