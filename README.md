@@ -6,7 +6,7 @@
 ```javascript
 https://github.com/DevCupu/Cloud-Computing-API-repo.git
 ```
-# change directory to app-backend
+# Change directory to app-backend
 ```javascript
 cd Cloud-Computing-API-repo
 ```
