@@ -1,3 +1,12 @@
+## Cara Menjalankan Proyek
+
+Langkah-langkah untuk menjalankan proyek Anda:
+
+1. Clone repositori: `git clone https://github.com/username/nama-proyek.git`
+2. Pindah ke direktori proyek: `cd nama-proyek`
+3. Install dependensi: `npm install`
+4. Jalankan aplikasi: `npm start`
+
 # API Documentation
 | Endpoint         | Method | Description                                       |
 |------------------|--------|---------------------------------------------------|
