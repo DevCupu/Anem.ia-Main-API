@@ -116,14 +116,17 @@
     - Body:
       ```json
       [
+      {
+        "message": "Berhasil mengambil semua daftar pengguna"
         {
-          "message": "Berhasil mengambil semua daftar pengguna"
+          
           "id": "user_id",
           "username": "Nama Pengguna",
           "email": "Email Pengguna",
           "createdAt": "Tanggal Pembuatan"
         },
         // ...dan seterusnya
+      }
       ]
       ```
   - **Error:** 404 Not Found
