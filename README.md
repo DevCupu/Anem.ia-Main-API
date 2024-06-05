@@ -117,6 +117,7 @@
       ```json
       [
         {
+          "message": "Berhasil mengambil semua daftar pengguna"
           "id": "user_id",
           "username": "Nama Pengguna",
           "email": "Email Pengguna",
