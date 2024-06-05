@@ -15,7 +15,7 @@ const accessValidation = (req, res, next) => {
             req.userData = jwtDecode;
         }
     } catch (error) {
-        return res.status(401).json({ message: 'Unauthorized' });
+        return res.status(401).json({ message: 'Unauthorized, Masukkan token' });
     }
     next();
 };
