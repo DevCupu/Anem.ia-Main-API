@@ -9,6 +9,11 @@ const db = new Firestore();
 const UsersRegister = async (req, res) => {
     const { name, email, password } = req.body;
     const createdAt = new Date().toISOString();
+    
+     // Validasi request body tidak boleh kosong
+    if (!name || !email || !password) {
+        return res.status(400).json({ message: 'Nama, email, dan password harus diisi' });
+    }
 
     try {
         // Cek jika pengguna suidah terdaftar
@@ -42,6 +47,7 @@ const UsersRegister = async (req, res) => {
                 id: newUser.id,
                 name: newUser.name,
                 email: newUser.email,
+                password: hashedPassword,
                 createdAt
             }
         });
