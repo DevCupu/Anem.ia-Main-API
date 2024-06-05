@@ -1,6 +1,8 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const routeApi = require("./routes/RoutesApi");
+const authRoutes = require('./routes/authRoutes');
+const userRoutes = require('./routes/userRoutes');
+const articleRoutes = require("./routes/articleRoutes");
 const { configureMulter, configureFirestore } = require("./config");
 const {
     errorHandler,
@@ -22,7 +24,9 @@ configureFirestore();
 app.use("/images", express.static(path.join(__dirname, "public/images")));
 
 // Rute untuk artikel
-app.use("/articles", routeApi);
+app.use("/articles", articleRoutes);
+app.use('/auth', authRoutes);
+app.use('/users', userRoutes);
 
 // Middleware untuk menangani kesalahan
 app.use(errorHandler);

@@ -4,7 +4,7 @@ function errorHandler(err, req, res, next) {
 }
 
 function handleInvalidURL(req, res) {
-    res.status(404).json({ message: "Halaman     Not Found!!!" });
+    res.status(404).json({ message: "Halaman Not Found!!!" });
 }
     
 module.exports = { errorHandler, handleInvalidURL };

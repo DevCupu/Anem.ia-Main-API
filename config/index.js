@@ -16,4 +16,4 @@ function configureFirestore() {
   // Konfigurasi Firestore
 }
 
-module.exports = { configureMulter, configureFirestore };
+module.exports = { configureMulter, configureFirestore};
