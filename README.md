@@ -1,4 +1,5 @@
-## Cara Menjalankan Proyek
+## Install (use Node.js version 18.18.2 if there are any problems with other versions)
+
 
 Langkah-langkah untuk menjalankan proyek Anda:
 
@@ -7,63 +8,7 @@ Langkah-langkah untuk menjalankan proyek Anda:
 3. Install dependensi: `npm install`
 4. Jalankan aplikasi: `npm start`
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GitHub README with Copy Button</title>
-  <style>
-    .copy-button {
-      background-color: #4CAF50;
-      color: white;
-      padding: 8px 20px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-      border-radius: 4px;
-    }
-  </style>
-</head>
-<body>
-  <textarea id="readme-content" rows="10" cols="50">
-# Nama Proyek
-
-Deskripsi singkat tentang proyek Anda di sini.
-
-## Cara Menjalankan Proyek
-
-Langkah-langkah untuk menjalankan proyek Anda:
-
-1. Clone repositori: `git clone https://github.com/username/nama-proyek.git`
-2. Pindah ke direktori proyek: `cd nama-proyek`
-3. Install dependensi: `npm install`
-4. Jalankan aplikasi: `npm start`
-
-## Kontribusi
-
-Jika Anda ingin berkontribusi pada proyek ini, silakan buat *fork* dari repositori ini, lakukan perubahan, dan kirimkan *pull request*.
-
-## Lisensi
-
-Proyek ini dilisensikan di bawah [lisensi MIT](LICENSE).
-  </textarea>
-  <button class="copy-button" onclick="copyText()">Copy</button>
-
-  <script>
-    function copyText() {
-      var textarea = document.getElementById("readme-content");
-      textarea.select();
-      document.execCommand("copy");
-      alert("Konten telah disalin!");
-    }
-  </script>
-</body>
-</html>
-
+<button id="copyButton">Copy Text</button>
 
 # API Documentation
 | Endpoint         | Method | Description                                       |
