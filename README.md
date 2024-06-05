@@ -1,15 +1,24 @@
-## Install (use Node.js version 18.18.2 if there are any problems with other versions)
+## Anemi.ia Documentation API Back-end
 
-
-Langkah-langkah untuk menjalankan proyek Anda:
-
+How to run
+# Clone repository
 ```javascript
-1. Clone repositori: `git clone https://github.com/username/nama-proyek.git`
-2. Pindah ke direktori proyek: `cd nama-proyek`
-3. Install dependensi: `npm install`
-4. Jalankan aplikasi: `npm start`
+https://github.com/DevCupu/Cloud-Computing-API-repo.git
 ```
 
+# change directory to app-backend
+```javascript
+cd Cloud-Computing-API-repo
+```
+#Install (use Node.js version 18.18.2 if there are any problems with other versions)
+```javascript
+npm install
+```
+
+# Start development:
+```javascript
+npm run start
+```
 
 
 # API Documentation
