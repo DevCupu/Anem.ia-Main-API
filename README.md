@@ -8,7 +8,14 @@ Langkah-langkah untuk menjalankan proyek Anda:
 3. Install dependensi: `npm install`
 4. Jalankan aplikasi: `npm start`
 
-<button id="copyButton">Copy Text</button>
+### Potongan Kode
+
+Klik tombol "Copy" untuk menyalin potongan kode berikut:
+
+```javascript
+// code.js
+console.log('Hello, World!');
+
 
 # API Documentation
 | Endpoint         | Method | Description                                       |
@@ -16,7 +23,7 @@ Langkah-langkah untuk menjalankan proyek Anda:
 | /articles        | GET    | Get all articles                                  |
 | /articles/:id    | GET    | Get articles by ID                                |
 | /articles        | POST   | Added new article                                 |
-| /users           | GET    | Get All users                                 |
+| /users           | GET    | Get All users                                     |
 | /user/{id}       | GET    | Get users based on ID                             |
 | /auth/register   | POST   | Register a New User                               |
 | /auth/login      | POST   | Login an Existing User                            |
