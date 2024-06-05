@@ -19,7 +19,7 @@ npm install
 npm run start
 ```
 
-
+# Recap end-point All Route
 | Endpoint       | Method | Description            |
 | -------------- | ------ | ---------------------- |
 | /articles      | GET    | Get all articles       |
