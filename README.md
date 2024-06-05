@@ -3,6 +3,7 @@
 | /articles        | GET    | Mendapatkan semua artikel                         |
 | /articles/:id    | GET    | Mendapatkan artikel berdasarkan ID                |
 | /articles        | POST   | Menambahkan artikel baru                          |
+| /users           | GET    | Menampilkan All users                             |    
 
 # Spesifikasi API
 
