@@ -1,11 +1,11 @@
 ## Anemi.ia Documentation API Back-end
 
-How to run
+# How to run
+
 # Clone repository
 ```javascript
 https://github.com/DevCupu/Cloud-Computing-API-repo.git
 ```
-
 # change directory to app-backend
 ```javascript
 cd Cloud-Computing-API-repo
@@ -14,7 +14,6 @@ cd Cloud-Computing-API-repo
 ```javascript
 npm install
 ```
-
 # Start development:
 ```javascript
 npm run start
