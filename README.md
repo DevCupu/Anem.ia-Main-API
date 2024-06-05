@@ -105,3 +105,37 @@
       {
         "message": "Internal server error"
       }
+## 4. Mengambil semua  Users
+### Get All Users
+
+- **Endpoint:** `/users`
+- **Method:** `GET`
+- **Deskripsi:** Mendapatkan semua pengguna yang terdaftar.
+- **Response:**
+  - **Success:** 200 OK
+    - Body:
+      ```json
+      [
+        {
+          "id": "user_id",
+          "username": "Nama Pengguna",
+          "email": "Email Pengguna",
+          "createdAt": "Tanggal Pembuatan"
+        },
+        // ...dan seterusnya
+      ]
+      ```
+  - **Error:** 404 Not Found
+    - Body:
+      ```json
+      {
+        "message": "Data pengguna tidak ditemukan atau kosong!"
+      }
+      ```
+  - **Error:** 500 Internal Server Error
+    - Body:
+      ```json
+      {
+        "message": "Kesalahan server internal"
+      }
+      ```
