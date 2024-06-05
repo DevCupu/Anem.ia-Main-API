@@ -3,18 +3,13 @@
 
 Langkah-langkah untuk menjalankan proyek Anda:
 
+```javascript
 1. Clone repositori: `git clone https://github.com/username/nama-proyek.git`
 2. Pindah ke direktori proyek: `cd nama-proyek`
 3. Install dependensi: `npm install`
 4. Jalankan aplikasi: `npm start`
+```
 
-### Potongan Kode
-
-Klik tombol "Copy" untuk menyalin potongan kode berikut:
-
-```javascript
-// code.js
-console.log('Hello, World!');
 
 
 # API Documentation
