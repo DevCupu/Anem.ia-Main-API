@@ -1,3 +1,4 @@
+
 ## Anemi.ia Documentation API Back-end
 
 # How to run
@@ -20,16 +21,17 @@ npm run start
 ```
 
 
-# API Documentation
-| Endpoint         | Method | Description                                       |
-|------------------|--------|---------------------------------------------------|
-| /articles        | GET    | Get all articles                                  |
-| /articles/:id    | GET    | Get articles by ID                                |
-| /articles        | POST   | Added new article                                 |
-| /users           | GET    | Get All users                                     |
-| /user/{id}       | GET    | Get users based on ID                             |
-| /auth/register   | POST   | Register a New User                               |
-| /auth/login      | POST   | Login an Existing User                            |
+| Endpoint       | Method | Description            |
+| -------------- | ------ | ---------------------- |
+| /articles      | GET    | Get all articles       |
+| /articles/:id  | GET    | Get articles by ID     |
+| /articles      | POST   | Added new article      |
+| /users         | GET    | Get All users          |
+| /user/{id}     | GET    | Get users based on ID  |
+| /auth/register | POST   | Register a New User    |
+| /auth/login    | POST   | Login an Existing User |
+
+# Spesifikasi API
 
 ## 1. Mendapatkan semua artikel
 
@@ -300,3 +302,5 @@ npm run start
       "message": "Kesalahan server internal"
     }
     ```
+
+****
