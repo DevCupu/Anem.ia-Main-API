@@ -33,7 +33,7 @@ npm run start
 # API Documentation
 This document provides information on how to use the API endpoints and their functionalities.
 
-## 1. Mendapatkan semua artikel
+## 1. Get all articles 
 
 - **URL:** `/articles`
 - **Method:** `GET`
@@ -68,7 +68,7 @@ This document provides information on how to use the API endpoints and their fun
       }
       ```
 
-## 2. Mendapatkan artikel berdasarkan ID
+## 2. Get articles by ID
 
 - **URL:** `/articles/:id`
 - **Method:** `GET`
@@ -104,7 +104,7 @@ This document provides information on how to use the API endpoints and their fun
       }
       ```
 
-## 3. Menambahkan artikel baru
+## 3. Added new article
 
 - **URL:** `/articles`
 - **Method:** `POST`
@@ -136,8 +136,7 @@ This document provides information on how to use the API endpoints and their fun
         "message": "Internal server error"
       }
 
-## 4. Mengambil semua  Users
-### Get All Users
+## 4. Get All Users
 
 - **Endpoint:** `/users`
 - **Method:** `GET`
@@ -175,7 +174,7 @@ This document provides information on how to use the API endpoints and their fun
       }
       ```
 
-## 5. Mendapatkan pengguna berdasarkan ID
+## 5. Get users based on ID
 
 - **Endpoint:** `/users/:id`
 - **Method:** `GET`
@@ -208,7 +207,7 @@ This document provides information on how to use the API endpoints and their fun
     }
     ```
 
-## 6. Registrasi Pengguna Baru
+## 6. Registration New Users
 
 - **Endpoint:** `/auth/register`
 - **Method:** `POST`
@@ -255,7 +254,7 @@ This document provides information on how to use the API endpoints and their fun
       "message": "Kesalahan server internal"
     }
     ```
-## 7. Registrasi Pengguna Baru
+## 7. Login an Existing User 
 
 - **Endpoint:** `/auth/login`
 - **Method:** `POST`
