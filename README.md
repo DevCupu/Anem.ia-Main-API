@@ -1,4 +1,4 @@
-# Anemi.ia Documentation API Back-end
+# Anemi.AI Documentation API Back-end
 
 # How to run
 
