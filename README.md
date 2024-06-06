@@ -217,7 +217,7 @@ This document provides information on how to use the API endpoints and their fun
   {
     "name": "string",
     "email": "string",
-    "password": "hash password"
+    "password": "string"
   }
 - **Response:**
   - **Success (201 Created):**
@@ -228,9 +228,7 @@ This document provides information on how to use the API endpoints and their fun
       "data": {
         "id": "string",
         "name": "string",
-        "email": "string",
-        "password": "hashedPassword",
-        "createdAt": "string"
+        "email": "string"
       }
     }
     ```
