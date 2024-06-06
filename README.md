@@ -8,7 +8,7 @@ https://github.com/DevCupu/Cloud-Computing-API-repo.git
 ```
 # Change directory to app-backend
 ```javascript
-cd Anem.AI-Main-API
+cd Anem.ia-Main-API
 ```
 #Install (use Node.js version 18.18.2 if there are any problems with other versions)
 ```javascript
