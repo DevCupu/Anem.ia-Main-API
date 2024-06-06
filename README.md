@@ -4,7 +4,7 @@
 
 # Clone repository
 ```javascript
-https://github.com/DevCupu/Cloud-Computing-API-repo.git
+https://github.com/DevCupu/Cloud-Computing-API-repo.git](https://github.com/DevCupu/Anem.ia-Main-API.git
 ```
 # Change directory to app-backend
 ```javascript
