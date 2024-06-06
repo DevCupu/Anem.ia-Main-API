@@ -1,7 +1,4 @@
-# Anemi.AI Documentation API Back-end
-
-# How to run
-
+# # How to run Anemi.AI API Back-end
 # Clone repository
 ```javascript
 https://github.com/DevCupu/Anem.ia-Main-API.git
